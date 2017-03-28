@@ -17,7 +17,9 @@
     setInterval(getMarquee, 1000*60*10);
 
     function getMarquee(){
-        // 获取公告
+        // 获取公告 
+        // test
+        // 
     }
 
     // 比赛
