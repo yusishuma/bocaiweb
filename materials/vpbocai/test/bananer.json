@@ -1,0 +1,23 @@
+{
+    "code" : 0,
+    "msg"  : "success",
+    "data" : [
+        {
+            "title" : 1,
+            "image" : "http://thumb.vpgcdn.com/a7a9a0a.jpg",
+            "url" : "http://www.baidu.com"
+        },{
+            "title" : 2,
+            "image" : "http://thumb.vpgcdn.com/a8fd96a1d6.png",
+            "url" : "http://www.baidu.com"
+        },{
+            "title" : 3,
+            "image" : "http://thumb.vpgcdn.com/9e790373.jpg",
+            "url" : "http://www.baidu.com"
+        },{
+            "title" : 4,
+            "image" : "http://thumb.vpgcdn.com/73712ee3fc.jpg",
+            "url" : "http://www.baidu.com"
+        }
+    ]
+}

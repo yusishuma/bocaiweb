@@ -1,0 +1,877 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv ="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>首页</title>
+        <!-- 插件 -->
+        <link rel="stylesheet" type="text/css" href="css/swiper-3.3.1.min.css">
+        <script type="text/javascript" src="js/plugins/swiper-3.3.1.min.js"></script>
+        <!-- 样式 -->
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/index.css" />
+        <!-- 脚本 -->
+        <script src="js/libs/jquery-1.8.3.min.js" type="text/javascript"></script>
+        <script type="text/javascript" src="js/pages/page_meng/1.js"></script>
+        <!-- <script src="js/common.js"></script> -->
+        <!-- <script src="js/pages/page_wang/index.js" type="text/javascript"></script> -->
+    </head>
+    <body>
+        <div class="wrap-w">
+            <!-- 顶部页面部分（header nav）-->
+            <div class="main-top">
+                <!-- 页头 -->
+                <div class="header">
+                    <div class="container">
+                        <a href="javascript:;" class="big-logo">
+                            <div class="logo"></div>
+                        </a>
+                        <ul class="the-pull">
+                            <li class="pull-left on">
+                                <a href="javascript:;" class="show-all">
+                                    <i class="icon-pull hero-pull"></i>
+                                    <span>英雄联盟</span>
+                                </a>
+                            </li>
+                            <li class="pull-left">
+                                <a href="javascript:;" class="show-all">
+                                    <i class="icon-pull keep-pull"></i>
+                                    <span>DOTA2</span>
+                                </a>
+                            </li>
+                            <li class="pull-left">
+                                <a href="javascript:;" class="show-all">
+                                    <i class="icon-pull dota-pull"></i>
+                                    <span>CSGO</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="language">
+                            <a href="javascript:;" class="btn-link">
+                                <!-- 默认中文（class为country-en为英文）-->
+                                <i class="country-icon country-cn"></i>
+                                <span class="caret bottom"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="javascript:;">English(英语)
+                                        <i class="country-icon country-gb"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="user-welcome">
+                            <div class="the-login">
+                                <a href="javascript:;" class="mr-20">登录</a>
+                                <a href="javascript:;" class="mr-20">注册账号</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- nav部分 -->
+                <div class="nav">
+                    <div class="container">
+                        <ul>
+                            <li class="first">
+                                <a href="javascript:;" class="on">
+                                    <i class="index-icon"></i>
+                                    <span>首页</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <i class="spinach-icon"></i>
+                                    <span>竞猜</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <i class="market-icon"></i>
+                                    <span>赛事</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <i class="news-icon"></i>
+                                    <span>数据</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <i class="roll-icon"></i>
+                                    <span>ROLL饰品</span>
+                                </a>
+                            </li>
+                            <li class="last">
+                                <a href="javascript:;">
+                                    <i class="user-icon sepool"></i>
+                                    <span>我的VP</span>
+                                </a>
+                            </li> 
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- 主页面部分 -->
+            <div class="main-page">
+                <div id="main">
+                    <!-- 公告栏 -->
+                    <div class="notice-group clearfix">
+                        <div class="notice-title">系统公告</div>
+                        <div class="notice-content">这是牛逼系统</div>
+                        <div class="notice-close"></div>
+                    </div>
+                    <div class="marquee clearfix">
+                        <div>
+                            <span class="name">张三</span> 获得了 <span class="gifts">屠龙宝刀</span>
+                        </div>
+                        <div>
+                            <span class="name">张三</span> 获得了 <span class="weapon">AK47</span>
+                        </div>
+                        <div>
+                            <span class="name">张三</span> 获得了 <span class="weapon">AK47</span>
+                        </div>
+                        <div>
+                            <span class="name">张三</span> 获得了 <span class="weapon">AK47</span>
+                        </div>
+                        <div>
+                            <span class="name">张三</span> 获得了 <span class="weapon">AK47</span>
+                        </div>
+                    </div>
+                    <!-- 轮播图和右边的部分 -->
+                    <div class="nav"> 
+                        <!-- 轮播图 -->
+                        <div class="swiper-container" style="width: 740px;height: 320px;float: left;">
+                            <div class="swiper-wrapper"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                        <!-- 全部赛程 -->
+                        <div class="all-game">
+                            <!-- 赛程头部 -->
+                            <div class="all-game-nav">
+                                <a href="javascript:;" class="first sele">全部赛事</a>
+                                <a href="javascript:;" class="sele">LOL</a>
+                                <a href="javascript:;" class="sele">DOTA2</a>
+                                <a href="javascript:;" class="last sele">CSGO</a>
+                                
+                            </div>
+                            <!-- 赛程列表 -->
+                            <div class="guess-match-list"  id="allGameAdvance">
+                                <ul id="guess-match-list">
+                                    <li class="guess-match-li">
+                                        <a href="javascript:;">
+                                            <div class="icon"></div>
+                                            <span class="pull-left1">Bhert</span>
+                                            <span class="pull-left2">BO2</span>
+                                            <span class="pull-left3">Newbee</span>
+                                            <span class="pull-left4 mm">30分钟后</span>
+                                        </a>
+                                    </li>
+                                    <li class="guess-match-li">
+                                        <a href="javascript:;">
+                                            <div class="icon"></div>
+                                            <span class="pull-left1">LoG</span>
+                                            <span class="pull-left2">BO2</span>
+                                            <span class="pull-left3">Africa</span>
+                                            <span class="pull-left4 mm">1小时后</span>
+                                        </a>
+                                    </li>
+                                    <li class="guess-match-li">
+                                        <a href="javascript:;">
+                                            <div class="icon"></div>
+                                            <span class="pull-left1">EDG gameimg</span>
+                                            <span class="pull-left2">BO2</span>
+                                            <span class="pull-left3">Ramgameing</span>
+                                            <span class="pull-left4">2小时后</span>
+                                        </a>
+                                    </li>
+                                    <li class="guess-match-li">
+                                        <a href="javascript:;">
+                                            <div class="icon"></div>
+                                            <span class="pull-left1">Bhert</span>
+                                            <span class="pull-left2">BO2</span>
+                                            <span class="pull-left3">Newbee</span>
+                                            <span class="pull-left4">4小时后</span>
+                                        </a>
+                                    </li>
+                                    <li class="guess-match-li">
+                                        <a href="javascript:;">
+                                            <div class="icon"></div>
+                                            <span class="pull-left1">LGD</span>
+                                            <span class="pull-left2">BO2</span>
+                                            <span class="pull-left3">Africa</span>
+                                            <span class="pull-left4">6小时后</span>
+                                        </a>
+                                    </li>
+                                    <li class="guess-match-li">
+                                        <a href="javascript:;">
+                                            <div class="icon"></div>
+                                            <span class="pull-left1">Bhert</span>
+                                            <span class="pull-left2">BO2</span>
+                                            <span class="pull-left3">Newbee</span>
+                                            <span class="pull-left4">4小时后</span>
+                                        </a>
+                                    </li>
+                                    <li class="guess-match-li">
+                                        <a href="javascript:;">
+                                            <div class="icon"></div>
+                                            <span class="pull-left1">LGD</span>
+                                            <span class="pull-left2">BO2</span>
+                                            <span class="pull-left3">Africa</span>
+                                            <span class="pull-left4">6小时后</span>
+                                        </a>
+                                    </li>
+                                    <li class="guess-match-li">
+                                        <a href="javascript:;">
+                                            <div class="icon"></div>
+                                            <span class="pull-left1">LGD</span>
+                                            <span class="pull-left2">BO2</span>
+                                            <span class="pull-left3">Africa</span>
+                                            <span class="pull-left4">6小时后</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 热门新闻以及左边的 -->
+                    <div class="vp-index">
+                        <!-- 热门新闻左边的列表 -->
+                        <div class="index-guess">
+                            <!-- 头部 -->
+                            <div class="guess-head">
+                                <div class="guess-head-left"></div>
+                                <div class="guess-date-list"> 
+                                    <a href="javascript:;">2017-03-18</a>
+                                    <a href="javascript:;">2017-03-19</a>
+                                    <a href="javascript:;">2017-03-20</a>
+                                    <a href="javascript:;">2017-03-20</a>
+                                    <a href="javascript:;">2017-03-21</a>
+                                    <a href="javascript:;">2017-03-22</a>
+                                    <a href="javascript:;">2017-03-23</a>
+                                </div>
+                                <div class="guess-head-right"></div>
+                            </div>
+                            <!-- 下面的列表 -->
+                            <div class="guess-list-box">
+                                <div class="guess-list-div">
+                                    <div class="guess-time">
+                                        <div class="guess-time-title">
+                                            <div></div>
+                                            <h5>预选赛败者组第一轮</h5>
+                                        </div>
+                                        <p>03-17 00:05</p>
+                                    </div>
+                                    <div class="guess-team1">
+                                        <p>EDG gameinging</p>
+                                        <img src="images/index/战队01.png">
+                                    </div>
+                                    <div class="guess-score">
+                                        <p>BO5</p>
+                                        <a href="javascript:;" class="on">比赛竞猜</a>
+                                    </div>
+                                    <div class="guess-team2">
+                                        <img src="images/index/战队02.png">
+                                        <p>NewBee</p>
+                                    </div>
+                                </div>
+                                 <div class="guess-list-div">
+                                    <div class="guess-time">
+                                        <div class="guess-time-title">
+                                            <div></div>
+                                            <h5>预选赛败者组第一轮</h5>
+                                        </div>
+                                        <p>03-17 00:05</p>
+                                    </div>
+                                    <div class="guess-team1">
+                                        <p>EDG gameinging</p>
+                                        <img src="images/index/战队01.png">
+                                    </div>
+                                    <div class="guess-score">
+                                        <p>BO5</p>
+                                        <a href="javascript:;" class="on">比赛竞猜</a>
+                                    </div>
+                                    <div class="guess-team2">
+                                        <img src="images/index/战队02.png">
+                                        <p>NewBee</p>
+                                    </div>
+                                </div>
+                                <div class="guess-list-div">
+                                    <div class="guess-time">
+                                        <div class="guess-time-title">
+                                            <div></div>
+                                            <h5>预选赛败者组第一轮</h5>
+                                        </div>
+                                        <p>03-17 00:05</p>
+                                    </div>
+                                    <div class="guess-team1">
+                                        <p>wings</p>
+                                        <img src="images/index/战队03.png">
+                                    </div>
+                                    <div class="guess-score">
+                                        <p>2 : 0</p>
+                                        <a href="javascript:;" class="on">比赛竞猜</a>
+                                    </div>
+                                    <div class="guess-team2">
+                                        <img src="images/index/战队04.png">
+                                        <p>NewBee Gameinging</p>
+                                    </div>
+                                </div>
+                                <div class="guess-list-div">
+                                    <div class="guess-time">
+                                        <div class="guess-time-title">
+                                            <div></div>
+                                            <h5>预选赛败者组第一轮</h5>
+                                        </div>
+                                        <p>03-17 00:05</p>
+                                    </div>
+                                    <div class="guess-team1">
+                                        <p>wings</p>
+                                        <img src="images/index/战队01.png">
+                                    </div>
+                                    <div class="guess-score">
+                                        <p>2 : 0</p>
+                                        <a href="javascript:;">比赛竞猜</a>
+                                    </div>
+                                    <div class="guess-team2">
+                                        <img src="images/index/战队02.png">
+                                        <p>LGD</p>
+                                    </div>
+                                </div>
+                                <div class="guess-list-div">
+                                    <div class="guess-time">
+                                        <div class="guess-time-title">
+                                            <div></div>
+                                            <h5>预选赛败者组第一轮</h5>
+                                        </div>
+                                        <p>03-17 00:05</p>
+                                    </div>
+                                    <div class="guess-team1">
+                                        <p>wings</p>
+                                        <img src="images/index/战队03.png">
+                                    </div>
+                                    <div class="guess-score">
+                                        <p>2 : 0</p>
+                                        <a href="">比赛竞猜</a>
+                                    </div>
+                                    <div class="guess-team2">
+                                        <img src="images/index/战队04.png">
+                                        <p>LGD</p>
+                                    </div>
+                                </div>
+                                <div class="guess-list-div">
+                                    <div class="guess-time">
+                                        <div class="guess-time-title">
+                                            <div></div>
+                                            <h5>预选赛败者组第一轮</h5>
+                                        </div>
+                                        <p>03-17 00:05</p>
+                                    </div>
+                                    <div class="guess-team1">
+                                        <p>wings</p>
+                                        <img src="images/index/战队01.png">
+                                    </div>
+                                    <div class="guess-score">
+                                        <p>2 : 0</p>
+                                        <a href="javascript:;">比赛竞猜</a>
+                                    </div>
+                                    <div class="guess-team2">
+                                        <img src="images/index/战队02.png">
+                                        <p>LGD</p>
+                                    </div>
+                                </div>
+                                <div class="guess-list-div">
+                                    <div class="guess-time">
+                                        <div class="guess-time-title">
+                                            <div></div>
+                                            <h5>预选赛败者组第一轮</h5>
+                                        </div>
+                                        <p>03-17 00:05</p>
+                                    </div>
+                                    <div class="guess-team1">
+                                        <p>wings</p>
+                                        <img src="images/index/战队03.png">
+                                    </div>
+                                    <div class="guess-score">
+                                        <p>2 : 0</p>
+                                        <a href="javascript:;">比赛竞猜</a>
+                                    </div>
+                                    <div class="guess-team2">
+                                        <img src="images/index/战队04.png">
+                                        <p>LGD</p>
+                                    </div>
+                                </div>
+                                <div class="guess-list-div">
+                                    <div class="guess-time">
+                                        <div class="guess-time-title">
+                                            <div></div>
+                                            <h5>预选赛败者组第一轮</h5>
+                                        </div>
+                                        <p>03-17 00:05</p>
+                                    </div>
+                                    <div class="guess-team1">
+                                        <p>wings</p>
+                                        <img src="images/index/战队01.png">
+                                    </div>
+                                    <div class="guess-score">
+                                        <p>2 : 1</p>
+                                        <a href="javascript:;">比赛竞猜</a>
+                                    </div>
+                                    <div class="guess-team2">
+                                        <img src="images/index/战队02.png">
+                                        <p>LGD</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 热门新闻 -->
+                        <div class="hot-news">
+                            <!-- 头部 -->
+                            <a href="javascript:;" class="hot-news-head">
+                                <div class="tubiao"></div>
+                                <h5 class="news-title">热门新闻</h5>
+                            </a>
+                            <!-- 新闻列表 -->
+                            <div class="hot-news-list">
+                            <!-- 大图部分 -->
+                                <a href="javascript:;" class="hot-news-TOP">
+                                    <img src="images/index/热门新闻大图.png">
+                                    <span></span>
+                                    <p>DOTA2全国网吧 超级联赛 华南区预赛正式开始 超级联赛开启</p>
+                                </a>
+                                <!-- 新闻列表 -->
+                                <dl class="hot-news-dl">
+                                    <dt><a href="javascript:;"><img src="images/index/热门新闻小图.png"></a></dt>
+                                    <a href="javascript:;" class="hot-news-dl-a"><h6>关于讲风格还是法国大红色部分东湖发货速度关于讲风格还是法国大红色部分东湖发货速度关于讲风格还是法国大红色部分东湖发货速度</h6></a>
+                                    <dd class="dd">1天前</dd>
+                                </dl>
+                                <dl class="hot-news-dl">
+                                    <dt><a href="javascript:;"><img src="images/index/热门新闻小图.png"></a></dt>
+                                    <a href="javascript:;" class="hot-news-dl-a"><h6>关于讲风格还是法国大红色部分东湖发货</h6></a>
+                                    <dd class="dd">1天前</dd>
+                                </dl>
+                                <dl class="hot-news-dl">
+                                    <dt><a href="javascript:;"><img src="images/index/热门新闻小图.png"></a></dt>
+                                    <a href="javascript:;" class="hot-news-dl-a"><h6>关于讲风格还是法国大红色部分东湖发</h6></a>
+                                    <dd class="dd">1天前</dd>
+                                </dl>
+                                <dl class="hot-news-dl">
+                                    <dt><a href="javascript:;"><img src="images/index/热门新闻小图.png"></a></dt>
+                                    <a href="javascript:;" class="hot-news-dl-a"><h6>关于讲风格还是法国大红色部分东湖发货速</h6></a>
+                                    <dd class="dd">1天前</dd>
+                                </dl>
+                                <dl class="hot-news-dl">
+                                    <dt><a href="javascript:;"><img src="images/index/热门新闻小图.png"></a></dt>
+                                    <a href="javascript:;" class="hot-news-dl-a"><h6>关于讲风格还是法国大红色部分东湖发货速</h6></a>
+                                    <dd class="dd">1天前</dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 最新求购 -->
+                    <div class="shop-new clearfix">
+                        <!-- left -->
+                        <div class="shop-new-left">
+                            <a class="topic-shop">
+                                <i class="shop-icon"></i>
+                                <span>最新求购</span>
+                            </a>
+                            <ul class="ul-left clearfix">
+                                <a href="javascript:;">
+                                    <li>
+                                        <div class="b-img">
+                                            <img src="images/index/热门商城02.png" class="scale-img" alt="">
+                                            <span class="name">名称</span>
+                                        </div>
+                                        <p class="money">
+                                            <span>158000</span>
+                                            <i></i>
+                                        </p>
+                                    </li>
+                                </a>
+                                <a href="javascript:;">
+                                    <li>
+                                        <div class="b-img">
+                                            <img src="images/index/热门商城02.png" class="scale-img" alt="">
+                                            <span class="name">名称</span>
+                                        </div>
+                                        <p class="money">
+                                            <span>158000</span>
+                                            <i></i>
+                                        </p>
+                                    </li>
+                                </a>
+                                <a href="javascript:;">
+                                    <li>
+                                        <div class="b-img">
+                                            <img src="images/index/热门商城02.png" class="scale-img" alt="">
+                                            <span class="name">名称</span>
+                                        </div>
+                                        <p class="money">
+                                            <span>158000</span>
+                                            <i></i>
+                                        </p>
+                                    </li>
+                                </a>
+                                <a href="javascript:;">
+                                    <li>
+                                        <div class="b-img">
+                                            <img src="images/index/热门商城02.png" class="scale-img" alt="">
+                                            <span class="name">名称</span>
+                                        </div>
+                                        <p class="money">
+                                            <span>158000</span>
+                                            <i></i>
+                                        </p>
+                                    </li>
+                                </a>
+                                <a href="javascript:;">
+                                    <li>
+                                        <div class="b-img">
+                                            <img src="images/index/热门商城02.png" class="scale-img" alt="">
+                                            <span class="name">名称</span>
+                                        </div>
+                                        <p class="money">
+                                            <span>158000</span>
+                                            <i></i>
+                                        </p>
+                                    </li>
+                                </a>
+                                <a href="javascript:;">
+                                    <li>
+                                        <div class="b-img">
+                                            <img src="images/index/热门商城02.png" class="scale-img" alt="">
+                                            <span class="name">名称</span>
+                                        </div>
+                                        <p class="money">
+                                            <span>158000</span>
+                                            <i></i>
+                                        </p>
+                                    </li>
+                                </a>
+                                <a href="javascript:;">
+                                    <li>
+                                        <div class="b-img">
+                                            <img src="images/index/热门商城02.png" class="scale-img" alt="">
+                                            <span class="name">名称</span>
+                                        </div>
+                                        <p class="money">
+                                            <span>158000</span>
+                                            <i></i>
+                                        </p>
+                                    </li>
+                                </a>
+                                <a href="javascript:;">
+                                    <li>
+                                        <div class="b-img">
+                                            <img src="images/index/热门商城02.png" class="scale-img" alt="">
+                                            <span class="name">名称</span>
+                                        </div>
+                                        <p class="money">
+                                            <span>158000</span>
+                                            <i></i>
+                                        </p>
+                                    </li>
+                                </a>
+                                <a href="javascript:;">
+                                    <li>
+                                        <div class="b-img">
+                                            <img src="images/index/热门商城02.png" class="scale-img" alt="">
+                                            <span class="name">名称</span>
+                                        </div>
+                                        <p class="money">
+                                            <span>158000</span>
+                                            <i></i>
+                                        </p>
+                                    </li>
+                                </a>
+                                <a href="javascript:;">
+                                    <li>
+                                        <div class="b-img">
+                                            <img src="images/index/热门商城02.png" class="scale-img" alt="">
+                                            <span class="name">名称</span>
+                                        </div>
+                                        <p class="money">
+                                            <span>158000</span>
+                                            <i></i>
+                                        </p>
+                                    </li>
+                                </a>
+                                <a href="javascript:;">
+                                    <li>
+                                        <div class="b-img">
+                                            <img src="images/index/热门商城02.png" class="scale-img" alt="">
+                                            <span class="name">名称</span>
+                                        </div>
+                                        <p class="money">
+                                            <span>158000</span>
+                                            <i></i>
+                                        </p>
+                                    </li>
+                                </a>
+                                <a href="javascript:;">
+                                    <li>
+                                        <div class="b-img">
+                                            <img src="images/index/热门商城02.png" class="scale-img" alt="">
+                                            <span class="name">名称</span>
+                                        </div>
+                                        <p class="money">
+                                            <span>158000</span>
+                                            <i></i>
+                                        </p>
+                                    </li>
+                                </a>
+                                <a href="javascript:;">
+                                    <li>
+                                        <div class="b-img">
+                                            <img src="images/index/热门商城02.png" class="scale-img" alt="">
+                                            <span class="name">名称</span>
+                                        </div>
+                                        <p class="money">
+                                            <span>158000</span>
+                                            <i></i>
+                                        </p>
+                                    </li>
+                                </a>
+                                <a href="javascript:;">
+                                    <li>
+                                        <div class="b-img">
+                                            <img src="images/index/热门商城02.png" class="scale-img" alt="">
+                                            <span class="name">名称</span>
+                                        </div>
+                                        <p class="money">
+                                            <span>158000</span>
+                                            <i></i>
+                                        </p>
+                                    </li>
+                                </a>
+                                <a href="javascript:;">
+                                    <li>
+                                        <div class="b-img">
+                                            <img src="images/index/热门商城02.png" class="scale-img" alt="">
+                                            <span class="name">名称</span>
+                                        </div>
+                                        <p class="money">
+                                            <span>158000</span>
+                                            <i></i>
+                                        </p>
+                                    </li>
+                                </a>
+                                <a href="javascript:;">
+                                    <li>
+                                        <div class="b-img">
+                                            <img src="images/index/热门商城02.png" class="scale-img" alt="">
+                                            <span class="name">名称</span>
+                                        </div>
+                                        <p class="money">
+                                            <span>158000</span>
+                                            <i></i>
+                                        </p>
+                                    </li>
+                                </a>
+                            </ul>
+                        </div>
+                        <!-- right -->
+                        <div class="shop-new-right shop-new-left">
+                            <a href="" class="topic-shop-right">
+                                <i class="shop-icon-right"></i>
+                                <span>最新求购</span>
+                            </a>
+                            <ul class="ul-right">
+                                <li class="link-li">
+                                    <a href="javascript:;" class="clearfix">
+                                        <img src="images/index/index-icon.png" alt="">
+                                        <div class="desig-nation">
+                                            <p class="com-mod">物品名称</p>
+                                            <div class="goods-money">
+                                                <span class="name">求购价:</span>
+                                                <p class="money">
+                                                    <span>999999</span>
+                                                    <i></i>
+                                                </p>
+                                            </div>
+                                            <p class="num-case">55件</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="link-li">
+                                    <a href="javascript:;" class="clearfix">
+                                        <img src="images/index/index-icon.png" alt="">
+                                        <div class="desig-nation">
+                                            <p class="com-mod">物品名称</p>
+                                            <div class="goods-money">
+                                                <span class="name">求购价:</span>
+                                                <p class="money">
+                                                    <span>999999</span>
+                                                    <i></i>
+                                                </p>
+                                            </div>
+                                            <p class="num-case">55件</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="link-li">
+                                    <a href="javascript:;" class="clearfix">
+                                        <img src="images/index/index-icon.png" alt="">
+                                        <div class="desig-nation">
+                                            <p class="com-mod">物品名称</p>
+                                            <div class="goods-money">
+                                                <span class="name">求购价:</span>
+                                                <p class="money">
+                                                    <span>999999</span>
+                                                    <i></i>
+                                                </p>
+                                            </div>
+                                            <p class="num-case">55件</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="link-li">
+                                    <a href="javascript:;" class="clearfix">
+                                        <img src="images/index/index-icon.png" alt="">
+                                        <div class="desig-nation">
+                                            <p class="com-mod">物品名称</p>
+                                            <div class="goods-money">
+                                                <span class="name">求购价:</span>
+                                                <p class="money">
+                                                    <span>999999</span>
+                                                    <i></i>
+                                                </p>
+                                            </div>
+                                            <p class="num-case">55件</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="link-li">
+                                    <a href="javascript:;" class="clearfix">
+                                        <img src="images/index/index-icon.png" alt="">
+                                        <div class="desig-nation">
+                                            <p class="com-mod">物品名称</p>
+                                            <div class="goods-money">
+                                                <span class="name">求购价:</span>
+                                                <p class="money">
+                                                    <span>999999</span>
+                                                    <i></i>
+                                                </p>
+                                            </div>
+                                            <p class="num-case">55件</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="link-li">
+                                    <a href="javascript:;" class="clearfix">
+                                        <img src="images/index/index-icon.png" alt="">
+                                        <div class="desig-nation">
+                                            <p class="com-mod">物品名称</p>
+                                            <div class="goods-money">
+                                                <span class="name">求购价:</span>
+                                                <p class="money">
+                                                    <span>999999</span>
+                                                    <i></i>
+                                                </p>
+                                            </div>
+                                            <p class="num-case">55件</p>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 页脚部分 -->
+            <div class="footer">
+                <div class="foot-container">
+                    <!-- 网站链接群 -->
+                    <div class="foot-links">
+                        <div class="dl-zone">
+                            <div class="qr-coad">
+                                <img src="images/index/qr-code.png" alt="">
+                            </div>
+                            <dl class="a-groups">
+                                <dt>功能介绍</dt>
+                                <dd><a href="javascript:;">功能介绍1</a></dd>
+                                <dd><a href="javascript:;">功能介绍2</a></dd>
+                                <dd><a href="javascript:;">功能介绍3</a></dd>
+                            </dl>
+                            <dl class="a-groups">
+                                <dt>新手帮助</dt>
+                                <dd><a href="javascript:;">新手帮助1</a></dd>
+                                <dd><a href="javascript:;">新手帮助2</a></dd>
+                                <dd><a href="javascript:;">新手帮助3</a></dd>
+                            </dl>
+                            <dl class="a-groups">
+                                <dt>关于我们</dt>
+                                <dd><a href="javascript:;">关于我们1</a></dd>
+                                <dd><a href="javascript:;">关于我们2</a></dd>
+                                <dd><a href="javascript:;">关于我们3</a></dd>
+                            </dl>
+                            <dl class="a-groups">
+                                <dt>意见反馈</dt>
+                                <dd><a href="javascript:;">意见反馈1</a></dd>
+                                <dd><a href="javascript:;">意见反馈2</a></dd>
+                                <dd><a href="javascript:;">意见反馈3</a></dd>
+                            </dl>
+                            <dl class="a-groups phone-w">
+                                <dt></dt>
+                                <dd>
+                                    <span class="dd_sp">客服热线:010-1234567</span>
+                                </dd>
+                                <dd>
+                                    <span class="dd_sp">官方QQ群:1234567890</span>
+                                </dd>
+                                <dd>
+                                    <span class="dd_sp">商务合作：@xingxiang.cn</span>
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="friendship-link">友情链接:
+                            <a href="JavaScript:;">游久DOTA2</a>
+                            <a href="JavaScript:;">太平洋游戏dota2</a>
+                            <a href="JavaScript:;">新浪dota2</a>
+                            <a href="JavaScript:;">易竞技</a>
+                            <a href="JavaScript:;">178dota2</a>
+                            <a href="JavaScript:;">15wdota2</a>
+                            <a href="JavaScript:;">巴士dota2</a>
+                            <a href="JavaScript:;">锐派dota2</a>
+                            <a href="JavaScript:;">游戏港口</a>
+                            <a href="JavaScript:;">17173dota2</a>
+                            <a href="JavaScript:;">新浪dota2</a>
+                        </div>
+                    </div>
+                    <!-- 版权部分 -->
+                    <div class="copyright">
+                        <p>北京xxxxxxxxx有限公司 | 京ICP备xxxxxxx号-2 | xxxx业务经营许可证：京xx-xxxxxxx|Copyright©2016 bocaigame.cn</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script type="text/javascript">
+        // 全部赛程标题的点击事件
+        var AllGame = $(".nav .all-game .all-game-nav a");
+        AllGame.click(function(){
+            $(this).siblings().css("color","#cfcfcf");
+            $(this).css("color","#00a6ff");
+       });
+        // 日期列表的左右两个箭头的点击效果
+        var LeftBtn = $(".guess-head-left");
+        var RightBtn = $(".guess-head-right");
+        LeftBtn.click(function(){
+            RightBtn.css("backgroundPosition","-67px -107px");
+            $(this).css("backgroundPosition","-54px -130px");
+        });
+        
+        RightBtn.click(function(){
+            LeftBtn.css("backgroundPosition","-53px -107px");
+            $(this).css("backgroundPosition","-67px -130px");
+        })
+        // 日期列表的日期点击切换效果
+        var GuessDate = $(".guess-date-list a");
+        GuessDate.click(function(){
+            $(this).siblings().css("color","#878787");
+            $(this).css("color","#00a6ff");
+        })
+    </script>
+</html>

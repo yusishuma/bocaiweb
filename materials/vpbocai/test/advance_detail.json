@@ -1,0 +1,91 @@
+{
+    "code" : 0,
+    "msg" : "success",
+    "data" : [
+        {
+            "time" : "03-17 00:30",
+            "title" : "预选赛败者组",
+            "team_1" : "LGD",
+            "team_1_logo" : "http://thumb.vpgcdn.com/1c43b807a.png/c/91x55",
+            "team_2" : "VG",
+            "team_2_logo" : "http://thumb.vpgcdn.com/5b503bb.png/c/91x55",
+            "type"   : "BO5",
+            "guessing_url": "http://www.gamebocai.com/guessing/1",
+            "is_guessing" : true,
+            "play_status" : "before",
+            "score" : "0:1"
+        },{
+            "time" : "03-17 00:30",
+            "title" : "预选赛败者组",
+            "team_1" : "LGD",
+            "team_1_logo" : "http://thumb.vpgcdn.com/1c43b807a.png/c/91x55",
+            "team_2" : "VG",
+            "team_2_logo" : "http://thumb.vpgcdn.com/5b503bb.png/c/91x55",
+            "type"   : "BO5",
+            "guessing_url": "http://www.gamebocai.com/guessing/1",
+            "is_guessing" : true,
+            "play_status" : "start",
+            "score" : "0:1"
+        },{
+            "time" : "03-17 00:30",
+            "title" : "预选赛败者组",
+            "team_1" : "LGD",
+            "team_1_logo" : "http://thumb.vpgcdn.com/1c43b807a.png/c/91x55",
+            "team_2" : "VG",
+            "team_2_logo" : "http://thumb.vpgcdn.com/5b503bb.png/c/91x55",
+            "type"   : "BO5",
+            "guessing_url": "http://www.gamebocai.com/guessing/1",
+            "is_guessing" : false,
+            "play_status" : "end",
+            "score" : "0:1"
+        },{
+            "time" : "03-17 00:30",
+            "title" : "预选赛败者组",
+            "team_1" : "LGD",
+            "team_1_logo" : "http://thumb.vpgcdn.com/1c43b807a.png/c/91x55",
+            "team_2" : "VG",
+            "team_2_logo" : "http://thumb.vpgcdn.com/5b503bb.png/c/91x55",
+            "type"   : "BO5",
+            "guessing_url": "http://www.gamebocai.com/guessing/1",
+            "is_guessing" : false,
+            "play_status" : "end",
+            "score" : "0:1"
+        },{
+            "time" : "03-17 00:30",
+            "title" : "预选赛败者组",
+            "team_1" : "LGD",
+            "team_1_logo" : "http://thumb.vpgcdn.com/1c43b807a.png/c/91x55",
+            "team_2" : "VG",
+            "team_2_logo" : "http://thumb.vpgcdn.com/5b503bb.png/c/91x55",
+            "type"   : "BO5",
+            "guessing_url": "http://www.gamebocai.com/guessing/1",
+            "is_guessing" : false,
+            "play_status" : "end",
+            "score" : "0:1"
+        },{
+            "time" : "03-17 00:30",
+            "title" : "预选赛败者组",
+            "team_1" : "LGD",
+            "team_1_logo" : "http://thumb.vpgcdn.com/1c43b807a.png/c/91x55",
+            "team_2" : "VG",
+            "team_2_logo" : "http://thumb.vpgcdn.com/5b503bb.png/c/91x55",
+            "type"   : "BO5",
+            "guessing_url": "http://www.gamebocai.com/guessing/1",
+            "is_guessing" : false,
+            "play_status" : "end",
+            "score" : "0:1"
+        },{
+            "time" : "03-17 00:30",
+            "title" : "预选赛败者组",
+            "team_1" : "LGD",
+            "team_1_logo" : "http://thumb.vpgcdn.com/1c43b807a.png/c/91x55",
+            "team_2" : "VG",
+            "team_2_logo" : "http://thumb.vpgcdn.com/5b503bb.png/c/91x55",
+            "type"   : "BO5",
+            "guessing_url": "http://www.gamebocai.com/guessing/1",
+            "is_guessing" : false,
+            "play_status" : "end",
+            "score" : "0:1"
+        }
+    ]
+}

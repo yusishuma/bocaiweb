@@ -1,0 +1,13 @@
+{
+    "code" : 0,
+    "msg"  : "success",
+    "data" : {
+        "default_lang" : "zh",
+        "lang_list" : [
+            "zh", "en"
+        ]
+    }
+}
+
+// json.data.default_lang
+// for (var i in json.data.lang_list)
