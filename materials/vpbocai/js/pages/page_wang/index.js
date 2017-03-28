@@ -18,6 +18,7 @@
 
     function getMarquee(){
         // 获取公告
+        // test
     }
 
     // 比赛
