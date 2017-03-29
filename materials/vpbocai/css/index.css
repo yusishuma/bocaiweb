@@ -12,7 +12,7 @@
 .swiper-pagination-fraction {
   text-align: left;
   width: auto;
-  left: 625px;
+  left: 580px;
 }
 .swiper-pagination .swiper-pagination-bullet {
   border-radius: 1px;
@@ -20,6 +20,7 @@
   height: 11px;
   background: #878787;
   opacity: 1;
+  border-radius: 2px;
 }
 .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
   background: #00a6ff;
@@ -399,40 +400,6 @@
   height: 43px;
   line-height: 43px;
   background: #282c32;
-  /*.all-game-ul{
-                            line-height: 43px;
-                            li{
-                                width: 80px;
-                                float: left;
-                                height: 42px;
-                                color: #cfcfcf;
-                                &:first-child{
-                                    color:#00a6ff;
-                                }
-                                a{
-                                    height: 12px;
-                                    line-height: 12px;
-                                    display: inline-block;
-                                    width: 80px;
-                                    text-align: center;
-                                    border-right: 1px solid #49505d;
-                                    color: #cfcfcf;*/
-  /* &:hover{
-                                        color: #00a6ff;
-                                    }*/
-  /*  &.first{
-                                        color: #00a6ff;
-                                    }*/
-  /* &.last{
-                                        border:none;
-                                    }*/
-  /*点击时的样式*/
-  /*.cli{
-                                        color: #00a6ff;
-                                    } */
-  /*        }
-                            }
-                        }*/
 }
 .wrap-w .main-page #main .nav .all-game .all-game-nav .sele {
   display: inline-block;
@@ -627,12 +594,8 @@
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-  /*float: left;*/
   text-align: right;
   margin-top: 12px;
-}
-.wrap-w .main-page #main .vp-index .index-guess .guess-list-box .guess-list-div .guess-team1 img {
-  /*float: right;*/
 }
 .wrap-w .main-page #main .vp-index .index-guess .guess-list-box .guess-list-div .guess-score {
   float: left;
@@ -736,17 +699,9 @@
   font-size: 11px;
 }
 .wrap-w .main-page #main .vp-index .hot-news .hot-news-list dl {
-  margin-top: 20px;
+  margin-top: 22px;
   font-size: 11px;
   color: #cfcfcf;
-  /*  .hot-news-dl-a{
-                                display: inline-block;
-                                height: 26px;
-                                height: 179px;
-                                overflow: hidden;
-                                white-space: nowrap;
-                                text-overflow: ellipsis;
-                            }*/
 }
 .wrap-w .main-page #main .vp-index .hot-news .hot-news-list dl dt {
   float: left;
@@ -791,7 +746,7 @@
   display: block;
 }
 .wrap-w .main-page #main .shop-new .shop-new-left .topic-shop:hover .shop-icon {
-  background-position: -16px -123px;
+  background-position: -16px -124px;
 }
 .wrap-w .main-page #main .shop-new .shop-new-left .topic-shop:hover span {
   color: #00a6ff;
@@ -801,7 +756,7 @@
   height: 14px;
   background: url(../images/index/index-icon.png) no-repeat;
   display: inline-block;
-  background-position: 0px -106px;
+  background-position: -16px -107px;
   margin-right: 7px;
 }
 .wrap-w .main-page #main .shop-new .shop-new-left .topic-shop .shop-icon.on {
@@ -889,15 +844,22 @@
   background-position: 0px -139px;
   margin-left: 3px;
 }
+.wrap-w .main-page #main .shop-new .shop-new-left .ul-right {
+  height: 610px;
+  overflow: hidden;
+}
 .wrap-w .main-page #main .shop-new .shop-new-left .ul-right .link-li {
   border-bottom: 1px solid #424854;
+}
+.wrap-w .main-page #main .shop-new .shop-new-left .ul-right .link-li:hover {
+  background-color: #414c5f;
 }
 .wrap-w .main-page #main .shop-new .shop-new-left .ul-right .link-li:last-child {
   border-bottom: none;
 }
 .wrap-w .main-page #main .shop-new .shop-new-left .ul-right .link-li a {
   display: block;
-  height: 100px;
+  height: 101px;
   box-sizing: border-box;
   padding: 24px 0px 20px 20px;
 }
@@ -959,7 +921,7 @@
   display: block;
 }
 .wrap-w .main-page #main .shop-new .shop-new-right .topic-shop-right:hover .shop-icon-right {
-  background-position: -16px -123px;
+  background-position: 0 -123px;
 }
 .wrap-w .main-page #main .shop-new .shop-new-right .topic-shop-right:hover span {
   color: #00a6ff;
@@ -1050,6 +1012,9 @@
   font-size: 14px;
   color: #778296;
   margin-left: 12px;
+}
+.wrap-w .footer .foot-links .friendship-link a:hover {
+  color: #fff;
 }
 .wrap-w .footer .copyright {
   width: 100%;
