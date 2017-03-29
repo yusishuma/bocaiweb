@@ -18,7 +18,6 @@
 
     function getMarquee(){
         // 获取公告
-        // test
     }
 
     // 比赛
@@ -146,4 +145,7 @@
             }
         });
     }
+
+    //header头点击切换
+    
 })(jQuery);
