@@ -6,7 +6,7 @@ $.ajax({
         var data1 = res.data.slide;
         for (var i = 0; i < data1.length; i++) {
             var pp = data1[i].activity.img;
-            var div  = $('<div class="swiper-slide" />');
+            var div  = $('<div class="swiper-slide"/>');
             var img = $('<img/>').attr({src:pp}).appendTo(div).css({"width":"740px","height":"320px"});
             div.appendTo($('.swiper-wrapper'));
         }
@@ -27,4 +27,32 @@ $.ajax({
         }
     }
 })
+
+        // 返回顶部按钮
+        $(function(){
+         // 当滚动条滚动大于200时出现，未大于，消失
+         $(window).scroll(function(){
+           if($(document).scrollTop()<300){
+            
+             $(".gotop").stop().animate({
+                
+                 opacity: 0
+                  
+             },500)
+           }
+           else{
+             $(".gotop").show().stop().animate({
+                  
+                 opacity: 1
+                  
+             },500)
+           }
+        })
+       // 返回顶部
+       $(".gotop").on("click",function(){
+          $("html body").animate({
+             scrollTop:0
+          },1000)
+       })
+    })
 
