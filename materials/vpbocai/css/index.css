@@ -33,6 +33,7 @@
   /* 顶部页面部分 */
   /* 主页面部分 */
   /* 页脚部分 */
+  /*返回顶部按钮*/
 }
 .wrap-w .main-top {
   width: 100%;
@@ -1026,4 +1027,20 @@
   margin-top: 21px;
   font-size: 14px;
   color: #3e444f;
+}
+.wrap-w .gotop {
+  display: block;
+  width: 32px;
+  height: 32px;
+  background-color: red;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  line-height: 32px;
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  opacity: 0;
 }
