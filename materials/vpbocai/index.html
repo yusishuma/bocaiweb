@@ -10,12 +10,13 @@
         <script type="text/javascript" src="js/plugins/swiper-3.3.1.min.js"></script>
         <!-- 样式 -->
         <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/public.css" />
         <link rel="stylesheet" href="css/index.css" />
         <!-- 脚本 -->
         <script src="js/libs/jquery-1.8.3.min.js" type="text/javascript"></script>
         <script type="text/javascript" src="js/pages/page_meng/1.js"></script>
-        <!-- <script src="js/common.js"></script> -->
-        <!-- <script src="js/pages/page_wang/index.js" type="text/javascript"></script> -->
+        <script src="js/common.js"></script>
+        
     </head>
     <body>
         <div class="wrap-w">
@@ -28,7 +29,7 @@
                             <div class="logo"></div>
                         </a>
                         <ul class="the-pull">
-                            <li class="pull-left on">
+                            <li class="pull-left">
                                 <a href="javascript:;" class="show-all">
                                     <i class="icon-pull hero-pull"></i>
                                     <span>英雄联盟</span>
@@ -74,7 +75,7 @@
                     <div class="container">
                         <ul>
                             <li class="first">
-                                <a href="javascript:;" class="on">
+                                <a href="javascript:;" class="">
                                     <i class="index-icon"></i>
                                     <span>首页</span>
                                 </a>
@@ -122,23 +123,25 @@
                         <div class="notice-content">这是牛逼系统</div>
                         <div class="notice-close"></div>
                     </div>
-                    <div class="marquee clearfix">
-                        <div>
-                            <span class="name">张三</span> 获得了 <span class="gifts">屠龙宝刀</span>
+                    <marquee behavior="scroll" contenteditable="true" onstart="this.firstChild.innerHTML+=this.firstChild.innerHTML;" scrollamount="10" width="100%" onmouseover="this.stop();" onmouseout="this.start();">
+                        <div class="marquee clearfix">
+                            <div>
+                                <span class="name">张三</span> 获得了 <span class="gifts">屠龙宝刀</span>
+                            </div>
+                            <div>
+                                <span class="name">张三</span> 获得了 <span class="weapon">AK47</span>
+                            </div>
+                            <div>
+                                <span class="name">张三</span> 获得了 <span class="weapon">AK47</span>
+                            </div>
+                            <div>
+                                <span class="name">张三</span> 获得了 <span class="weapon">AK47</span>
+                            </div>
+                            <div>
+                                <span class="name">张三</span> 获得了 <span class="weapon">AK47</span>
+                            </div>
                         </div>
-                        <div>
-                            <span class="name">张三</span> 获得了 <span class="weapon">AK47</span>
-                        </div>
-                        <div>
-                            <span class="name">张三</span> 获得了 <span class="weapon">AK47</span>
-                        </div>
-                        <div>
-                            <span class="name">张三</span> 获得了 <span class="weapon">AK47</span>
-                        </div>
-                        <div>
-                            <span class="name">张三</span> 获得了 <span class="weapon">AK47</span>
-                        </div>
-                    </div>
+                    </marquee>
                     <!-- 轮播图和右边的部分 -->
                     <div class="nav"> 
                         <!-- 轮播图 -->
@@ -855,6 +858,7 @@
 
         
     </body>
+    <script src="js/pages/page_wang/index.js" type="text/javascript"></script>
     <script type="text/javascript">
         
         // 全部赛程标题的点击事件
